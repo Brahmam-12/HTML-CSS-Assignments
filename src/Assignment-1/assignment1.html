@@ -9,11 +9,38 @@
 </head>
 
 <body>
-	<div id="container">
+	<div class="container">
 
+	<!-- This is just a comment. Ignore this line.-->
 	<!-- Start your code from here -->
-	
+	<div class="row">
+		<div class="col">
+			<ul class="my-list">
+				<li>List item 1</li>
+				<li>List item 1</li>
+				<li>List item 1</li>
+				<li>
+					<ul>
+						<li>List item 3.1</li>
+						<li>List item 3.1</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="col">
+			<img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg" alt="not found">
+		</div>
+	</div>
 
+	<div class="row">
+		<div class="col">
+			<img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg" alt="not found">
+		</div>
+		<div class="col">
+			<h1>I submit My Assignment 1</h>
+		</div>
+	</div>
+	
 	<!-- End your code -->
 
 	</div>
@@ -32,7 +59,7 @@
 	// set the attributes for link element 
 	link.rel = 'stylesheet'; 
 	link.type = 'text/css';
-	link.href = './screen.css?v='+ new Date().getTime(); 
+	link.href = './assignment1.css?v='+ new Date().getTime(); 
 	// Append link element to HTML head
 	head.appendChild(link); 
 	/* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */	  
